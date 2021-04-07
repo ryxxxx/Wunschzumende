@@ -164,6 +164,7 @@
     <ClInclude Include="State.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include=".gitignore" />
     <None Include="engine.json" />
     <None Include="shaderTest.frag" />
     <None Include="tilemap.json" />
