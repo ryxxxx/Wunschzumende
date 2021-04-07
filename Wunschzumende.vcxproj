@@ -169,6 +169,15 @@
     <None Include="shaderTest.frag" />
     <None Include="tilemap.json" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\images\animClick.png" />
+    <Image Include="resources\images\imgBackgroundMovementTest.png" />
+    <Image Include="resources\images\imgCursor.png" />
+    <Image Include="resources\images\imgMenu.png" />
+    <Image Include="resources\images\imgPlayer.png" />
+    <Image Include="resources\images\imgShaderTest.png" />
+    <Image Include="resources\images\imgTileset.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

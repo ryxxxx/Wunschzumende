@@ -68,4 +68,27 @@
       <Filter>github</Filter>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\images\imgMenu.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="resources\images\imgPlayer.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="resources\images\imgShaderTest.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="resources\images\imgTileset.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="resources\images\animClick.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="resources\images\imgBackgroundMovementTest.png">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="resources\images\imgCursor.png">
+      <Filter>images</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
