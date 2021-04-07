@@ -2,10 +2,10 @@
 #include "nlohmann/json.hpp"
 #include <fstream>
 #include <iostream>
-#include "ShaderTest.h"
-#include "MovementTest.h"
+#include "States/ShaderTest.h"
+#include "States/MovementTest.h"
 
-BeEngine::BeEngine() : BeEngine("engine.json") {}
+BeEngine::BeEngine() : BeEngine("resources/json/engine.json") {}
 
 BeEngine::BeEngine(const std::string& settingsFile)
 {

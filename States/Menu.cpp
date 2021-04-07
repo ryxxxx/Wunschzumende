@@ -23,3 +23,7 @@ std::string Menu::name()
 void Menu::load(BeEngine*)
 {
 }
+
+void Menu::mouseEvent(sf::Event::EventType type, sf::Mouse::Button button, sf::Vector2i position)
+{
+}

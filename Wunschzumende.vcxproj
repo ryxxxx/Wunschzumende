@@ -152,22 +152,22 @@
   <ItemGroup>
     <ClCompile Include="BeEngine.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Menu.cpp" />
-    <ClCompile Include="MovementTest.cpp" />
-    <ClCompile Include="ShaderTest.cpp" />
+    <ClCompile Include="States\Menu.cpp" />
+    <ClCompile Include="States\MovementTest.cpp" />
+    <ClCompile Include="States\ShaderTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BeEngine.h" />
-    <ClInclude Include="Menu.h" />
-    <ClInclude Include="MovementTest.h" />
-    <ClInclude Include="ShaderTest.h" />
-    <ClInclude Include="State.h" />
+    <ClInclude Include="States\Menu.h" />
+    <ClInclude Include="States\MovementTest.h" />
+    <ClInclude Include="States\ShaderTest.h" />
+    <ClInclude Include="States\State.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />
-    <None Include="engine.json" />
-    <None Include="shaderTest.frag" />
-    <None Include="tilemap.json" />
+    <None Include="resources\json\engine.json" />
+    <None Include="resources\json\tilemap.json" />
+    <None Include="resources\shader\shaderTest.frag" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\images\animClick.png" />
@@ -183,7 +183,7 @@
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties tilemap_1json__JsonSchema="https://beaujs.com/schema.json" />
+      <UserProperties />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

@@ -1,5 +1,5 @@
 #include "MovementTest.h"
-#include "BeEngine.h"
+#include "../BeEngine.h"
 
 MovementTest::MovementTest()
 {
@@ -35,7 +35,6 @@ void MovementTest::load(BeEngine* e)
 	sprPlayer.setTexture(texPlayer);
 };
 
-void MovementTest::mouseEvent(sf::Event::EventType type, sf::mous sf::Vector2i position)
+void MovementTest::mouseEvent(sf::Event::EventType type, sf::Mouse::Button button, sf::Vector2i position)
 {
-	if(type==sf::Event::MouseButtonReleased)
 }

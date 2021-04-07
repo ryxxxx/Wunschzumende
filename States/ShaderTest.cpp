@@ -1,5 +1,5 @@
 #include "ShaderTest.h"
-#include "BeEngine.h"
+#include "../BeEngine.h"
 #include <Windows.h>
 #include <Uxtheme.h>
 #include <dwmapi.h>
@@ -49,4 +49,8 @@ void ShaderTest::load(BeEngine* _engine)
 	margins.cxLeftWidth = -1;
 	SetWindowLong(handle, GWL_STYLE, WS_POPUP | WS_VISIBLE);
 	DwmExtendFrameIntoClientArea(handle, &margins);
+}
+
+void ShaderTest::mouseEvent(sf::Event::EventType type, sf::Mouse::Button button, sf::Vector2i position)
+{
 }

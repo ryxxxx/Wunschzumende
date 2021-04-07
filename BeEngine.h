@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
 #include <SFML/Graphics.hpp>
-#include "State.h"
+#include "States/State.h"
 
 class BeEngine
 {

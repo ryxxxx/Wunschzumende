@@ -13,11 +13,23 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="github">
-      <UniqueIdentifier>{f7627128-576c-4619-a5d8-1fa4b4d2e861}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="images">
+    <Filter Include="Ressourcendateien\images">
       <UniqueIdentifier>{6a65a901-4994-4b36-9c16-486f004815ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\json">
+      <UniqueIdentifier>{5548e20a-d9c8-45da-a658-620cc053a4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\shader">
+      <UniqueIdentifier>{8c11688c-1436-4199-b0ce-6cbdd100519c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\States">
+      <UniqueIdentifier>{d72ef18b-96f6-42c0-ad49-7483b70f6d9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\States">
+      <UniqueIdentifier>{a0700ddc-c82f-47e3-ace7-17a55f494d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ressourcendateien\github">
+      <UniqueIdentifier>{f7627128-576c-4619-a5d8-1fa4b4d2e861}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -27,68 +39,68 @@
     <ClCompile Include="BeEngine.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Menu.cpp">
-      <Filter>Quelldateien</Filter>
+    <ClCompile Include="States\ShaderTest.cpp">
+      <Filter>Quelldateien\States</Filter>
     </ClCompile>
-    <ClCompile Include="ShaderTest.cpp">
-      <Filter>Quelldateien</Filter>
+    <ClCompile Include="States\MovementTest.cpp">
+      <Filter>Quelldateien\States</Filter>
     </ClCompile>
-    <ClCompile Include="MovementTest.cpp">
-      <Filter>Quelldateien</Filter>
+    <ClCompile Include="States\Menu.cpp">
+      <Filter>Quelldateien\States</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BeEngine.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
-    <ClInclude Include="State.h">
-      <Filter>Headerdateien</Filter>
+    <ClInclude Include="States\State.h">
+      <Filter>Headerdateien\States</Filter>
     </ClInclude>
-    <ClInclude Include="Menu.h">
-      <Filter>Headerdateien</Filter>
+    <ClInclude Include="States\ShaderTest.h">
+      <Filter>Headerdateien\States</Filter>
     </ClInclude>
-    <ClInclude Include="ShaderTest.h">
-      <Filter>Headerdateien</Filter>
+    <ClInclude Include="States\MovementTest.h">
+      <Filter>Headerdateien\States</Filter>
     </ClInclude>
-    <ClInclude Include="MovementTest.h">
-      <Filter>Headerdateien</Filter>
+    <ClInclude Include="States\Menu.h">
+      <Filter>Headerdateien\States</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="engine.json">
-      <Filter>Ressourcendateien</Filter>
-    </None>
-    <None Include="tilemap.json">
-      <Filter>Ressourcendateien</Filter>
-    </None>
-    <None Include="shaderTest.frag">
-      <Filter>Ressourcendateien</Filter>
-    </None>
     <None Include=".gitignore">
-      <Filter>github</Filter>
+      <Filter>Ressourcendateien\github</Filter>
+    </None>
+    <None Include="resources\json\engine.json">
+      <Filter>Ressourcendateien\json</Filter>
+    </None>
+    <None Include="resources\json\tilemap.json">
+      <Filter>Ressourcendateien\json</Filter>
+    </None>
+    <None Include="resources\shader\shaderTest.frag">
+      <Filter>Ressourcendateien\shader</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\images\imgMenu.png">
-      <Filter>images</Filter>
+      <Filter>Ressourcendateien\images</Filter>
     </Image>
     <Image Include="resources\images\imgPlayer.png">
-      <Filter>images</Filter>
+      <Filter>Ressourcendateien\images</Filter>
     </Image>
     <Image Include="resources\images\imgShaderTest.png">
-      <Filter>images</Filter>
+      <Filter>Ressourcendateien\images</Filter>
     </Image>
     <Image Include="resources\images\imgTileset.png">
-      <Filter>images</Filter>
+      <Filter>Ressourcendateien\images</Filter>
     </Image>
     <Image Include="resources\images\animClick.png">
-      <Filter>images</Filter>
+      <Filter>Ressourcendateien\images</Filter>
     </Image>
     <Image Include="resources\images\imgBackgroundMovementTest.png">
-      <Filter>images</Filter>
+      <Filter>Ressourcendateien\images</Filter>
     </Image>
     <Image Include="resources\images\imgCursor.png">
-      <Filter>images</Filter>
+      <Filter>Ressourcendateien\images</Filter>
     </Image>
   </ItemGroup>
 </Project>
